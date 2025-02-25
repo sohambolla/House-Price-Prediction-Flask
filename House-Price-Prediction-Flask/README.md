@@ -23,10 +23,7 @@ python app.py
 <br>
 
 ## Preview
-<img src='https://github.com/JafirDon/House-price-prediction-using-flask/blob/main/static/images/form.png'></img>
-<br>
-<br>
-<img src='https://github.com/JafirDon/House-price-prediction-using-flask/blob/main/static/images/prediction.png'></img>
+<img src='https://github.com/sohambolla/House-Price-Prediction-Flask/blob/main/House-Price-Prediction-Flask/static/images/app.png'></img>
 <br>
 <br>
 

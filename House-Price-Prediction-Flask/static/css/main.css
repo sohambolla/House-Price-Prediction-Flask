@@ -1,0 +1,67 @@
+body{
+    background-image: url('bg1.jpg'); /* Use correct file path */
+    background-repeat: no-repeat; /* Prevent repeating */
+    background-size: cover; /* Make it cover the entire page */
+    background-position: center; /* Center the image */
+    height: 65vh; /* Make sure the body covers full viewport */
+    margin: 0;
+    background-color: #cccccc;
+}
+.register_page{
+    width: 360px;
+    margin: auto;
+}
+.moving-text {
+    width: 100%;
+    white-space: nowrap; /* Prevents text from breaking lines */
+    overflow: hidden;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(38, 34, 99);
+    padding: 10px 0;
+
+    /* Animation */
+    animation: moveText 17s linear infinite;
+}
+
+@keyframes moveText {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+.form{
+    background: linear-gradient(to bottom, #5c87b8, #d9d9d9); /* Light to Dark */
+    padding: 20px; /* Add some space inside */
+    border-radius: 10px; /* Smooth rounded edges */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Soft shadow for 3D effect */
+    width: 400px; /* Adjust width */
+    position: relative;
+    z-index: 1;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+}
+.form input{
+    font-family: 'Oswald', sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    text-align: center;
+    margin: 0 0 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
+
+.submit{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(19, 49, 105);
+}

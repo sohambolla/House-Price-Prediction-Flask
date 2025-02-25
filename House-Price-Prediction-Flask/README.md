@@ -1,7 +1,8 @@
 # House-price-prediction-using-flask
+📌 About the Project
 This project demonstrates the predictive capabilities of a model trained on house price data using Linear Regression. The model is deployed using a Flask API, providing an interface to predict house prices based on input features.
 
-For a detailed explanation, check out my blog post: [House Price Prediction using Flask for Beginners](https://techyscientists.blogspot.com/2021/07/house-price-prediction-using-flask.html)
+This House Price Prediction web application uses machine learning to estimate property prices based on user-input features like bedrooms, bathrooms, floors, year of construction, and location.
 
 ## Installation
 
@@ -11,7 +12,6 @@ You'll need to install the required libraries to run this web app on your local 
 pip install -r requirement.txt
 ```
 <br>
-<br>
 
 ## Getting Started
 
@@ -20,7 +20,30 @@ After installing the required packages, you can start the application by executi
 python app.py
 ```
 <br>
+
+## How to Use:
+1.Enter the number of bedrooms, bathrooms, floors, year built, and select the location from the dropdown.<br>
+2.Click the "Predict" button.<br>
+3.The app will display the estimated house price based on the trained ML model.<br>
 <br>
+
+## Key Feature: 
+✅ Accurate Price Prediction using Machine Learning (linear regression.)<br>
+✅ User-Friendly UI built with HTML, CSS, and JavaScript.<br>
+✅ Location-Based Prediction with dropdown selection.<br>
+✅ Interactive & Responsive Design.<br>
+✅ Easy to Use – Just enter details and get instant results.<br>
+<br>
+
+
+## Technology Used:
+Flask (for backend)
+HTML, CSS, JavaScript (for frontend)
+Scikit-Learn, Pandas, NumPy (for ML Model)
+Pickle (model.pkl) (to save and load ML model)
+<br>
+<br>
+
 
 ## Preview
 <img src='https://github.com/sohambolla/House-Price-Prediction-Flask/blob/main/House-Price-Prediction-Flask/static/images/app.png'></img>
